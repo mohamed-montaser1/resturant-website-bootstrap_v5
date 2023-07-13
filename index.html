@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg bg-transparent position-absolute w-100"
+    >
+      <div class="container">
+        <a class="navbar-brand fs-4" href="#"
+          ><img src="./images/logo.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title text-white fs-4"
+              id="offcanvasNavbarLabel"
+            >
+              Resturant
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-white bg-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <hr class="header-hr" />
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item">
+                <a class="nav-link active fs-md-4" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-md-4" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-md-4" href="#app">Our App</a>
+              </li>
+            </ul>
+            <button class="btn btn-custom">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="landing w-full d-flex justify-content-center align-items-center"
+      data-imageNumber="1"
+    >
+      <div class="welcome-text d-flex flex-column align-items-center">
+        <h1 class="text-white font-weight-light" data-aos="fade-up">
+          Welcome In Our Resturant
+        </h1>
+        <p
+          class="lead text-white text-grey text-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          expedita, nemo neque voluptates
+        </p>
+        <button class="btn btn-custom" data-aos="fade-up" data-aos-delay="200">
+          See Menu
+        </button>
+      </div>
+      <div class="position-absolute bottom-0 mb-5 text-white">
+        <i
+          class="fa-solid fa-arrow-down fs-5 pointer"
+          onclick="location.href = `${location.origin}#menu`"
+        ></i>
+      </div>
+    </div>
+
+    <section class="menu my-5" id="menu">
+      <h2 class="text-center mb-5">Today's Menu</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 position-relative mb-4">
+            <div class="card mx-auto" style="width: 18rem">
+              <img
+                src="./images/special-dish-banner.jpg"
+                class="card-img-top"
+                alt="Dish Banner"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Dish Banner</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-custom">See More Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 position-relative mb-4">
+            <div class="card mx-auto" style="width: 18rem">
+              <img
+                src="./images/special-dish-banner.jpg"
+                class="card-img-top"
+                alt="Dish Banner"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Dish Banner</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-custom">See More Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 position-relative mb-4">
+            <div class="card mx-auto" style="width: 18rem">
+              <img
+                src="./images/special-dish-banner.jpg"
+                class="card-img-top"
+                alt="Dish Banner"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Dish Banner</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-custom">See More Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 position-relative mb-4">
+            <div class="card mx-auto" style="width: 18rem">
+              <img
+                src="./images/special-dish-banner.jpg"
+                class="card-img-top"
+                alt="Dish Banner"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Dish Banner</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-custom">See More Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 position-relative mb-4">
+            <div class="card mx-auto" style="width: 18rem">
+              <img
+                src="./images/special-dish-banner.jpg"
+                class="card-img-top"
+                alt="Dish Banner"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Dish Banner</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-custom">See More Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 position-relative mb-4">
+            <div class="card mx-auto" style="width: 18rem">
+              <img
+                src="./images/special-dish-banner.jpg"
+                class="card-img-top"
+                alt="Dish Banner"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Dish Banner</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-custom">See More Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app my-5">
+      <h2 class="text-center mb-5">Our App</h2>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-sm-12 col-md-6 d-flex justify-content-center flex-column"
+          >
+            <p class="lead">
+              Download Our App To Get The Food Faster Download Our App To Get
+              The Food Faster Download Our App To Get The Food Faster Download
+              Our App To Get The Food Faster
+            </p>
+            <div>
+              <img
+                src="./images/appstorebadge.svg"
+                style="width: 40%"
+                alt="app store badge"
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mt-4">
+            <img src="./images/hero-slider-2.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="container">
+        <form class="row needs-validation" novalidate>
+          <div class="col-sm-12 col-md-6 mb-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Name..."
+              required
+            />
+            <div class="valid-feedback">Looks Good !</div>
+            <div class="invalid-feedback">Please Enter Valid Name</div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Name..."
+              required
+            />
+            <div class="valid-feedback">Looks Good !</div>
+            <div class="invalid-feedback">Please Enter Valid Email</div>
+          </div>
+          <div class="col-sm-12 mt-3" style="height: 400px; resize: vertical">
+            <textarea
+              class="form-control"
+              placeholder="Your Message"
+              style="height: 200px"
+            ></textarea>
+            <div class="valid-feedback">Looks Good !</div>
+            <div class="invalid-feedback">Please Enter Your Message</div>
+            <div class="col-sm-12 mt-4">
+              <button class="btn btn-custom mx-auto d-block">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-dark p-5 position-relative" style="min-height: 500px">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <div class="col-12 d-flex justify-content-center mt-3">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >Today's Menu</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none">App</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-12">
+            <p class="fs-4 text-white text-center">Subscribe In Our News</p>
+          </div>
+          <div class="col-sm-7 mx-auto d-flex gap-3 news-col">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter Your Email Here..."
+            />
+            <button class="btn btn-custom">Subscribe</button>
+          </div>
+        </div>
+        <div class="row position-absolute bottom-0 translate-middle start-50">
+          <div class="col-sm-12">
+            <p class="text-white lead fs-5 text-center">
+              All Right Reverse ©️ 2023 <span id="footer-year"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="layer d-flex justify-content-center align-items-center fixed-top w-100 vh-100 opacity-0 d-none"
+    >
+      <div>
+        <img
+          src="./images/special-dish-banner.jpg"
+          class="img-thumbnail img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Development version -->
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <!-- Production version -->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 500,
+      });
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

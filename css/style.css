@@ -1,0 +1,101 @@
+.pointer {
+  cursor: pointer;
+}
+
+.btn-custom {
+  background-color: rgba(243, 153, 27, 0.853) !important;
+  color: white !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+nav {
+  height: 100px;
+}
+
+@media (max-width: 991px) {
+  .offcanvas {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(15px);
+  }
+  .offcanvas .btn-custom {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    translate: -50% 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .offcanvas .header-hr {
+    color: white;
+    height: 3px;
+  }
+}
+
+.offcanvas .header-hr {
+  margin: 0 !important;
+}
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 300ms linear;
+}
+
+.landing[data-imageNumber="1"] {
+  background-image: url("../images/hero-slider-1.jpg");
+}
+.landing[data-imageNumber="2"] {
+  background-image: url("../images/hero-slider-2.jpg");
+}
+.landing[data-imageNumber="3"] {
+  background-image: url("../images/hero-slider-3.jpg");
+}
+
+.landing .welcome-text h1 {
+  font-size: 6vw;
+}
+
+.landing .welcome-text p {
+  font-size: 3vw;
+}
+
+@media (min-width: 596px) {
+  .landing .welcome-text h1 {
+    font-size: 3vw;
+  }
+
+  .landing .welcome-text p {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 596px) and (max-width: 1142px) {
+  .landing .welcome-text h1 {
+    font-size: 4vw;
+  }
+
+  .landing .welcome-text p {
+    font-size: 2vw;
+  }
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.345);
+  transition: all 300ms linear;
+}
+
+.layer div {
+  width: 500px;
+  height: 500px;
+  max-width: 97%;
+}
+
+@media (max-width: 767px) {
+  footer .news-col {
+    flex-direction: column;
+  }
+}
